@@ -1,0 +1,139 @@
+/* logo */
+.login span:first-child{
+    text-indent: 60px;
+}
+#logos{
+    position: relative;
+}
+#logos>img{
+    position: absolute;
+    top: -48px;
+    left: 0;
+}
+#logos>p{
+    text-indent: 290px;
+    margin-top: 20px;
+    line-height: 57px;
+}
+/* 内容 */
+/* 内容1 */
+#content{
+    width: 100%;
+    height: 500px;
+    background: #e93854;
+}
+#content .wrapper{
+    background-image: url(../images/05-beijing_03.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#content .loginBox{
+    width: 330px;
+    height: 350px;
+    background: #fff;
+    padding: 10px;
+    margin-top: 66px;
+}
+#content .loginBox .loginTitle{
+    text-align: center;
+    cursor: pointer;
+}
+#content .loginBox .loginTitle>span:first-child{
+    margin-right: 30px;
+}
+#content .loginBox .loginTitle>.active{
+    color: #ff6600;
+}
+#content .loginBox .loginContent{
+    height: 320px;
+}
+#content .loginBox .loginContent>.inContant>div{
+    height: 220px;
+}
+#content .loginBox .loginContent>.inContant>div>img{
+    position: relative;
+    width: 147px;
+    height: 147px;
+}
+#content .loginBox .loginContent>.inContant>p{
+    text-align: center;
+}
+#content .loginBox .loginContent img:first-child{
+    top: 60px;
+    left: 90px;
+    z-index: 3;
+}
+#content .loginBox .loginContent img:last-child{
+    top: 60px;
+    left: 40px;
+}
+/* 内容2 */
+#content .loginBox .loginContent>.user>input,#content .loginBox .loginContent>.password>input{
+    width: 300px;
+    height: 38px;
+    margin-left: 15px;
+    margin-top: 20px;
+    text-indent: 40px;
+}
+
+#content .loginBox .user{
+    position: relative;
+}
+#content .loginBox .password{
+    position: relative;
+}
+#content .loginBox .user .icon,#content .loginBox .password>.icon{
+    display: block;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 22px;
+    left: 17px;
+}
+#content .loginBox .user .icon{
+    background-image: url(../images/people.png);
+    background-repeat: no-repeat;
+}
+#content .loginBox .password>.icon{
+    background-image: url(../images/lock.png);
+    background-repeat: no-repeat;
+}
+#content .loginBox .user>.del,#content .loginBox .password>.del{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 32px;
+    right: 0px;
+}
+#content .loginBox .logins{
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 17px;
+    line-height: 30px;
+}
+#content .loginBox .logins>a{
+    color: #101010;
+}
+#content .loginBox .logon{
+    width: 300px;
+    height: 38px;
+    margin-left: 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    border: none;
+}
+#content .loginBox .register{
+    width: 300px;
+    height: 38px;
+    margin-left: 15px;
+    border-top: #f3f3f3;
+    text-align: center;
+}
+#content .loginBox .register>a{
+    color: #ff6600;
+}
+#content .loginBox .loginContent>.register img{
+    margin-top: -5px;
+}

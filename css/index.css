@@ -1,0 +1,339 @@
+
+/* 侧边菜单和轮播 */
+#asideBanner .aside{
+    width: 200px;
+    height: 430px;
+    background: #f3f3f3;
+}
+#asideBanner .banner{
+    width: 1000px;
+    height: 430px;
+}
+#asideBanner .aside>ul{
+    position: relative;
+}
+#asideBanner .aside .twoAside{
+    width: 578px;
+    height: 428px;
+    border: 1px solid #ff6600;
+    background: #fff;
+    position: absolute;
+    left: 199px;
+    top: 0px;
+    z-index: 4;
+}
+
+#asideBanner .aside>ul>li>p{
+    text-indent: 18px;
+    line-height: 30px;
+    position: relative;
+    z-index: 5;
+}
+#asideBanner .aside>ul>li>.active{
+    background: #fff;
+    border: 1px solid #ff6600;
+    color: #ff6600;
+    border-right: 1px solid #fff;
+}
+/* 今日推荐 */
+#rec .title{
+    text-indent: 20px;
+    padding-bottom: 7px;
+    border-bottom: 6px solid #ff6600;
+}
+#rec .list{
+    width: 1189px;
+    margin: auto;
+    min-height: 400px;
+    background: #ff6600;
+}
+#rec .list>.singleList{
+    width: 197px;
+    height: 246px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    background: #fff;
+    float: left;
+}
+#rec .list>.singleList>img:first-child{
+    display: block;
+    margin: auto;
+}
+#rec .list>.singleList>p{
+    text-indent: 8px;
+}
+/* 电子书 */
+#eBook .leftBox>.bottomList>.listLeft{
+    width: 240px;
+    height: 436px;
+    background: #f9f9f9; 
+}
+
+#eBook .leftBox>.bottomList>.listLeft>ul>li{
+    width: 80px;
+    float: left;
+    line-height: 37px;
+}
+
+#eBook .leftBox>.bottomList>.listRight{
+    width: 665px;
+    height: 436px;
+    background: #ccc;
+}
+#eBook .boxRight{
+    margin-top: 37px;
+}
+
+#eBook .leftBox>.bottomList>.listRight>.singleList1{
+    width: 331px;
+    height: 217px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    background: #fff;
+    float: left;
+}
+#eBook .leftBox>.bottomList>.listRight>.singleList{
+    width: 155px;
+    height: 207px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    background: #fff;
+    float: left;
+    padding: 5px; 
+}
+#eBook .leftBox>.bottomList>.listRight>.singleList>img{
+    margin: 10px 0;
+}
+#eBook .leftBox>.bottomList>.listRight>.singleList>p>span{
+    text-decoration: line-through;
+}
+
+/* 商品推荐 */
+#goods .floorTitle>ul{
+    position: relative;
+    bottom: -14px;
+}
+#goods .floorTitle>ul>li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background: #ccc;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#goods .floorTitle>ul>.active{
+    background: #ff6600;
+}
+#goods .outBox{
+    width: 1180px;
+    height: 610px;
+    padding: 10px;
+    overflow: hidden;
+}
+#goods .inBox{
+    width: 2376px;
+    height: 608px;
+}
+
+#goods .singleBox{
+    width: 1178px;
+    height: 608px;
+    margin-right: 10px;
+}
+
+#goods .outBox .singleBox>.singleList{
+    width: 175px;
+    height: 245px;
+    padding: 30px;
+}
+#goods .outBox .singleBox>.active{
+    background: rgb(230, 226, 226);
+}
+#goods .outBox .singleBox>.singleList>img{
+    display: block;
+    margin: auto;
+}
+#goods .outBox .singleBox>.singleList>p{
+    width: 148px;
+    margin: auto;
+}
+
+#goods .outBox .singleBox>.singleList>p:last-child{
+    background-image: url(../images/bgicon.png);
+    background-repeat: no-repeat;
+    background-position: -1px -84px;
+    text-indent: 30px;
+}
+/* 家居日用 */
+#daily .dailyList{
+    width: 1197px;
+    height: 500px;
+    background: #ccc;
+    margin: 0 auto;
+}
+#daily .dailyList>.dailyLeftList{
+    width: 483px;
+    height: 499px;
+    background: #fff;
+    margin-left:1px;
+}
+#daily .dailyList>.dailyLeftList>img{
+    width: 483px;
+    height: 499px;
+}
+#daily .dailyRgihtList{
+    width: 713px;
+    height: 400px;
+}
+#daily .dailyRgihtList>.dailySingle2{
+    width: 177px;
+    height: 338px;
+    background: #fff;
+    margin-left:1px;
+    margin-bottom: 1px;
+}
+#daily .dailyRgihtList>.dailySingle2>img{
+    width: 177px;
+    height: 338px;
+}
+#daily .dailyRgihtList>.dailySingle3{
+    width: 177px;
+    height: 160px;
+    background: #fff;
+    margin-left:1px;
+    margin-bottom: 1px;
+}
+#daily .dailyRgihtList>.dailySingle3>img{
+    width: 177px;
+    height: 160px;
+}
+
+
+/* 副搜索栏 */
+#searchTwo{
+    width: 100%;
+    height: 50px;
+    background: rgba(252, 104, 6, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#searchTwo img{
+    width:  100px;
+    height: 50px;
+}
+/* 楼层导航栏 */
+#floorNav{
+    width: 40px;
+    height: 240px;
+    background: #f2f2f2;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -640px;
+}
+#floorNav>ul>li{
+    position: relative;
+}
+#floorNav>ul>li>div{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+#floorNav>ul>li>p{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+#floorNav>ul>li>.icon1{
+    background-color: #f2f2f2;
+    background-image: url(../images/fix_box_icon.png);
+}
+
+#floorNav>ul>li:nth-child(2){
+    top: 40px;
+}
+#floorNav>ul>li>.icon2{
+    background-color: #f2f2f2;
+    background-image: url(../images/fix_box_icon.png);
+    background-position: 0 -40px;
+}
+
+#floorNav>ul>li:nth-child(3){
+    top: 80px;
+}
+#floorNav>ul>li>.icon3{
+    background-color: #f2f2f2;
+    background-image: url(../images/fix_box_icon.png);
+    background-position: 0 -80px;
+}
+#floorNav>ul>li:nth-child(4){
+    top: 120px;
+}
+#floorNav>ul>li>.icon4{
+    background-color: #f2f2f2;
+    background-image: url(../images/fix_box_icon.png);
+    background-position: 0 -120px;
+}
+#floorNav>ul>li:nth-child(5){
+    top: 160px;
+}
+#floorNav>ul>li>.icon5{
+    background-color: #f2f2f2;
+    background-image: url(../images/fix_box_icon.png);
+    background-position: 0 -160px;
+}
+#floorNav>ul>li:nth-child(6){
+    top: 200px;
+}
+#floorNav>ul>li>.icon6{
+    background-color: #f2f2f2;
+    background-image: url(../images/fix_box_icon.png);
+    background-position: 0 -200px;
+}
+#floorNav>ul>li:nth-child(7){
+    top: 240px;
+}
+#floorNav>ul>li>.icon7{
+    background-color: #f2f2f2;
+    background-image: url(../images/fix_box_icon.png);
+    background-position: 0 -240px;
+}
+#floorNav>ul>li:nth-child(8){
+    top: 280px;
+}
+#floorNav>ul>li>.icon8{
+    background-color: #f2f2f2;
+    background-image: url(../images/fix_box_icon.png);
+    background-position: 0 -280px;
+}
+/* 领券二维码 */
+#preferential{
+    width: 39px;
+    height: 179px;
+    background: #ff6600;
+    position: fixed;
+    top: 200px;
+    right: 50%;
+    margin-right: -650px;
+}
+#preferential>img:nth-child(2){
+    cursor: pointer;
+}
+#preferential>img:nth-child(3){
+    position: absolute;
+    top: 40px;
+    right: 39px;
+}

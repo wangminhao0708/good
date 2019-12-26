@@ -1,0 +1,335 @@
+/* 搜索框 */
+.searchBar>div{
+    position: relative;
+}
+.searchBar .barLeft{
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+/* title */
+#Cartitle p{
+    text-indent: 15px;
+    color: #4c4c4c;
+    height: 60px;
+    line-height: 60px;
+    background: #f2f2f2;
+}
+#Cartitle span{
+    display: inline-block;
+    color: #1080e7;
+    margin-right: 10px;
+}
+
+/* 收货人信息 */
+.consignee .innerTitle{
+    height: 190px;
+}
+
+.consignee .innerTitle span{
+    display:inline-block;
+    margin-top: 20px;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.consignee .innerTitle span:first-child{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 30px;
+    border: 1px solid #e6e6e6;
+}
+.consignee .innerTitle span:nth-child(2){
+    margin-left: 40px;
+}
+.consignee .innerTitle span:nth-child(3){
+    margin-left: 250px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background: #999999;
+    color: #d6d6d6;
+    text-align: center;
+}
+.consignee .innerTitle p{
+    margin-top: 40px;
+    margin-left: 44px;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.consignee .innerTitle span:nth-child(5){
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 30px;
+    border: 1px solid #e6e6e6;
+}
+.consignee .innerTitle span:nth-child(6){
+    margin-left: 40px;
+}
+
+/* 支付方式 */
+.payBox p{
+    text-indent: 15px;
+    color: #4c4c4c;
+    height: 60px;
+    line-height: 60px;
+    background: #f2f2f2;
+    font-size: 16px;
+}
+.payBox span{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.payBox a{
+    margin-left: 50px;
+    color: #878787;
+    text-decoration: none;
+}
+
+/* 送货清单 */
+.delivery>p{
+    text-indent: 15px;
+    color: #4c4c4c;
+    height: 60px;
+    line-height: 60px;
+    background: #f2f2f2;
+    font-size: 16px;
+}
+.delivery>p a{
+    color: #1080e7;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.delivery>p span{
+    color: #1080e7;
+    margin-right: 80px;
+    
+}
+
+/* 送货清单左侧盒子  */
+.delivery .innerLeft{
+    width: 465px;
+    height: 254px;
+    margin-bottom: 6px;
+}
+.delivery .innerLeft p:first-child{
+    text-indent: 15px;
+    color: #4c4c4c;
+    margin-top: 6px;
+}
+.delivery .innerLeft p:nth-child(2){
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.delivery .innerLeft p:nth-child(3){
+    text-indent: 15px;
+    color: #4c4c4c;
+    margin-top: 6px;
+}
+.delivery .innerLeft p:nth-child(3) span:last-child{
+    text-indent: 15px;
+    color: #1080e7;
+    margin-left: 250px;
+}
+.delivery .innerLeft p:nth-child(4){
+    text-indent: 15px;
+    color: #4c4c4c;
+    margin-top: 20px
+}
+.delivery .innerLeft p:nth-child(4) span:last-child{
+    text-indent: 15px;
+    color: #1080e7;
+    margin-left: 90px;
+}
+/* 送货清单右侧盒子 */
+.delivery .innerRight{
+    width: 735px;
+    height: 248px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background: #f2f2f2;
+}
+
+.delivery .innerRight>p img{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.delivery .innerRight>p span:nth-child(2){
+    margin-left: 50px;
+    color: #6b6b6b;
+    font-size: 18px;
+}
+.delivery .innerRight>p span:nth-child(3){
+    margin-left: 100px;
+    color: #ef0e0f;
+    font-size: 18px;
+    
+}
+.delivery .innerRight>p span:nth-child(4){
+    margin-left: 60px;
+    color: #4d4d4d;
+    font-size:18px;
+}
+.delivery .innerRight>p span:nth-child(5){
+    margin-left: 110px;
+    color: #4c4c4c;
+    font-size: 18px;
+}
+/* 发票 */
+.invoice{
+    height: 108px;
+    border-top: 2px solid #e6e6e6;
+}
+.invoice p:first-child{
+    margin-top: 20px;
+    margin-left: 44px;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.invoice p:nth-child(2){
+    text-indent: 15px;
+    color: #999999;
+    margin-top: 12px;
+    margin-left: 28px;
+    font-size: 18px;
+}
+.invoice p:nth-child(2) span{
+    margin-left: 20px;
+}
+.invoice p:nth-child(2) span:last-child{
+    color: #1080e7;
+}
+/* 结算兰 */
+.bill{
+    height: 58px;
+    line-height: 58px;
+    border: 1px solid #ccc;
+}
+.bill p{
+    margin-left: 44px;
+    color: #a5a5a5;
+    font-size: 16px;
+}
+.bill p span:first-child{
+    color:#ff6700;
+    margin-right: 15px;
+}
+.bill p span:nth-child(2){
+    margin-right: 86px;
+}
+.bill p span:nth-child(4){
+    margin-left: 8px;
+    margin-right: 86px;
+    color:#ff6700;
+}
+.bill p span:nth-child(6){
+    margin-left: 12px;
+    color:#ff6700;
+}
+.bill p span:nth-child(8){
+    font-size: 18px;
+    color:#ff6700;
+}
+.bill p span:nth-child(7){
+    margin-left: 460px;
+    font-size: 18px;
+}
+/* 配送地址 */
+/* 左侧盒子下拉框 */
+.site .siteLeft{
+    color: #a0a0a0;
+}
+.site .siteLeft select{
+    -webkit-appearance: none;
+    appearance:none;
+    margin-left: 10px;
+    text-indent: 5px;
+    width: 342px;
+    color: #a0a0a0;
+}
+.site .siteLeft span{
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 18px;
+}
+/* 中间盒子下拉框 */
+.site .siteMiddle{
+    color: #a0a0a0;
+}
+.site .siteMiddle select{
+    -webkit-appearance: none;
+    appearance:none;
+    margin-left: 10px;
+    text-indent: 5px;
+    width: 128px;
+    color: #a0a0a0;
+}
+.site .siteMiddle span{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+/* 提交按钮 */
+#btn{
+    width: 140px;
+    height: 60px;
+    border: 0px solid #ff6700;
+    border-radius: 3px;
+    margin-bottom: 52px;
+    background: #ff6700;
+    text-align: center;
+    line-height: 60px;
+    color: #fefefe;
+    font-size: 20px;
+}
+
+/* 选择事件类名 */
+.actives{
+    border: 2px solid #ff6700 !important;
+    background: url(../images/tab-active.png )no-repeat right bottom;
+}
+
+/* 模态框样式 */
+#mask{
+    display:none;
+    width:100%;
+    height:100%;
+    position:fixed;
+    background:rgba(0,0,0,0.5);
+    top:0;left:0;
+}
+#info{display:none;
+    width:400px;
+    height:200px;
+    position:fixed;
+    top:50%; left:50%;
+    background:#fff;
+    margin:-100px 0 0 -200px;
+    box-shadow:0 0 10px 5px #555;
+}
+#info h3{font:16px/2em; background:#ccc; text-indent:1em;}
+#info h3 span{float:right; margin-right:10px; cursor:pointer;}
+#info p{padding:10px 0; text-align:center;}
+#info p.text{padding-top:20px;line-height:60px;}
+#info p span{background:#f00; display:inline-block; width:60px;height:60px;color:#fff; text-align:center; font:60px/60px arial; border-radius:100%; vertical-align:middle;}
+.info_btns a{display:inline-block; background:#ccc; font-size:20px; padding:6px 30px; margin:0 10px;}
+.info_btns a:last-child{color:#fff; background:#f60;}

@@ -1,0 +1,114 @@
+/* 搜索框 */
+.searchBar>div{
+    position: relative;
+}
+.searchBar .barLeft{
+    margin-top: 0px;
+    margin-right: 0px;
+}
+/* 下拉框 */
+.searchBar .delivery{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+/* 内容 */
+#bookDiscount>.discount{
+    height: 300px;
+}
+#Cartitle>.outBox{
+    height: 60px;
+    background: #f2f2f2;
+    text-align: center;
+    line-height: 60px;
+}
+#Cartitle>.outBox>.titleList>li{
+    float: left;
+}
+.box1{
+    width: 80px;
+}
+.box2{
+    width: 500px;
+}
+.box3{
+    width: 155px;
+}
+.box4{
+    width: 165px;
+}
+.box5{
+    width: 140px;
+}
+.box6{
+    width: 160px;
+}
+.box31{
+    width: 145px;
+}
+.box41{
+    width: 155px;
+}
+.box51{
+    width: 130px;
+}
+.box61{
+    width: 150px;
+}
+#carList>.inBox>.Lists>li{
+    float: left;
+}
+#carList>.inBox>.Lists>li>p:first-child{
+    cursor: pointer;
+}
+#carList{
+    border-top: 6px solid #ccc;
+}
+#carList .inBox{
+    padding: 20px;
+}
+#carList .inBox>.Lists{
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+#carList .numberBar>li{
+    float: left;
+    border: 1px solid #ccc;
+}
+#carList .numberBar>li:nth-child(2)>input{
+    width: 50px;
+    border: none;
+    height: 25px;
+    outline: none;
+    text-align: center
+}
+#carList .numberBar>li:not(:nth-child(2)){
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+#carList .numberBar>li:nth-child(2){
+   border-left: none;
+   border-right: none;
+}
+/* 总计 */
+#allCount .leftContent{
+    width: 1028px;
+    height: 60px;
+    border: 1px solid #ccc;
+    line-height: 60px;
+    padding: 0 20px;
+}
+#allCount button{
+    width: 130px;
+    height: 60px;
+    background: #ff6600;
+    color:#fff;
+    border: 1px solid #ff6600;
+    font-size: 26px;
+    text-align: center;
+    line-height: 60px;
+}
+#allCount .leftContent .contentLeft>span:last-child{
+    cursor: pointer;
+}

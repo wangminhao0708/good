@@ -1,0 +1,174 @@
+/* 更改图片 */
+.logoNav img{
+    margin-bottom: -59px;
+}
+/* title */
+#Cartitle p{
+    text-indent: 15px;
+    color: #4c4c4c;
+    height: 60px;
+    line-height: 60px;
+    background: #f2f2f2;
+    letter-spacing: 1px;
+}
+#Cartitle span{
+    display: inline-block;
+    color: #1080e7;
+    
+}
+
+.topP{
+    margin-top: 110px;
+    color: #666666;
+    text-indent: 15px;
+}
+.topP span{
+    margin-left: 790px;
+    color: #1080e9;
+}
+#Cartitle p span{
+    margin-left: -14px;
+    color: #f30e0c;
+}
+/* 乐购支付 */
+.payBox span:first-child{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background: #ff6700;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.payBox span:last-child{
+    color:#cfcfcf;
+    margin-left: 10px;
+}
+/* 银行卡 */
+.card{
+    height: 90px;
+    line-height: 90px;
+    background: #f2f2f2;
+}
+.card span{
+    display: inline-block;
+    font-size: 18px;
+}
+.card>span:first-child{
+    width: 124px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 64px;
+    border: 1px solid #bfbfbf;
+    text-align: center;
+}
+.card>span:nth-child(2){
+    text-indent: 15px;
+    border: 1px solid #bfbfbf;
+    width: 348px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 26px;
+}
+.card>span:nth-child(2) span:first-child{
+    margin-left: 16px;
+    color: #ff6700;
+}
+.card>span:nth-child(2) span:last-child{
+    margin-left: 38px;
+    color: #c2c2c2;
+}
+.card>span:nth-child(3){
+    margin-left: 30px;
+    text-align: center;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    background: #999;
+    color: #fff;
+}
+.card>span:nth-child(4){
+    margin-left: 322px;
+    color: #343434;
+}
+.card>span:nth-child(4)>span{
+    color: #ff6700;
+}
+
+/* 支付 */
+.moneyBox{
+    height: 164px;
+}
+.moneyBox span:first-child{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: #76b0f5;
+    text-align: center;
+    margin-top: 112px;
+    font-size: 18px;
+    color:#fff;
+}
+.moneyBox span:nth-child(2){
+    margin-left: 10px;
+    color: #d0d0d0;
+}
+#btn{
+    margin-top: 14px;
+    border: 0px solid #fff;
+    width: 228px;
+    height: 60px;
+    background: #ff6700;
+    color: #fff;
+    font-size: 18px;
+}
+/* 底部横幅 */
+.banners{
+    height: 90px;
+    line-height: 90px;
+    margin-bottom: 40px;
+    background: #f2f2f2;
+    color: #727272;
+}
+.banners span{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.banners span:first-child{
+    margin-left: 58px;
+}
+
+/* 类名样式 */
+.actives{
+    border: 2px solid #ff6700 !important;
+    background: url(../images/tab-active.png) no-repeat right bottom;
+}
+/* 模态框样式 */
+#mask{
+    display:none;
+    width:100%;
+    height:100%;
+    position:fixed;
+    background:rgba(0,0,0,0.5);
+    top:0;left:0;
+}
+#info{display:none;
+    width:400px;
+    height:200px;
+    position:fixed;
+    top:50%; left:50%;
+    background:#fff;
+    margin:-100px 0 0 -200px;
+    box-shadow:0 0 10px 5px #555;
+}
+#info h3{font:16px/2em; background:#ccc; text-indent:1em;}
+#info h3 span{float:right; margin-right:10px; cursor:pointer;}
+#info p{padding:10px 0; text-align:center;}
+#info p.text{padding-top:20px;line-height:60px;}
+#info p span{background:#f00; display:inline-block; width:60px;height:60px;color:#fff; text-align:center; font:60px/60px arial; border-radius:100%; vertical-align:middle;}
+.info_btns a{display:inline-block; background:#ccc; font-size:20px; padding:6px 30px; margin:0 10px;}
+.info_btns a:last-child{color:#fff; background:#f60;}

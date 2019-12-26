@@ -1,0 +1,235 @@
+/* 轮播 */
+.asideBanner .banner{
+    width: 1000px;
+    height: 430px;
+}
+/* 右边板块 */
+.asideBanner>.rightBox{
+    width: 200px;
+    height: 430px;
+}
+.asideBanner>.rightBox>p{
+    height: 30px;
+    background: #93d46f;
+    line-height: 30px;
+    color: #fff;
+    text-indent: 10px;
+}
+/* 样式1 */
+.asideBanner>.rightBox>ul>li{
+    border-bottom: 1px solid #b3b3b3;
+}
+.asideBanner>.rightBox .hotList1>div:first-child{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-left:180px;
+}
+.asideBanner>.rightBox .hotList1>div:last-child{
+    margin-bottom: 20px;
+}
+.asideBanner>.rightBox .hotList1>div:last-child>p{
+    width: 98px;
+}
+.asideBanner>.rightBox .hotList1>div:last-child>img{
+    
+    display:block;
+    width: 85px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+/* 样式2 */
+
+.asideBanner>.rightBox>ul>.active{
+    height: 42px;
+    overflow: hidden;
+}
+.asideBanner>.rightBox .hotList2>div:first-child{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-left:180px;
+}
+.asideBanner>.rightBox .hotList2>div:last-child{
+    margin-bottom: 20px;
+}
+.asideBanner>.rightBox .hotList2>div:last-child>p{
+    width: 98px;
+}
+.asideBanner>.rightBox .hotList2>div:last-child>img{
+    display:block;
+    width: 85px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top:-18px;;
+    left: 0;
+}
+/* 底部图片 */
+.bottomPic{
+    width: 1200px;
+    height: 90px;
+}
+#bookDiscount{
+    margin-top: 25px;
+}
+#bookDiscount .leftBox{
+    width: 905px;
+    height: 436px;
+}
+/* 新书上架左边盒子 */
+
+#bookDiscount>.discount>.bookPics>.bookPrice>span{
+    color: #e6e6e6;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+#bookDiscount>.discount>.bookPics{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 210px;
+    height: 256px;
+}
+#bookDiscount>.discount>.bookPics>.bookPic>img{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#bookDiscount>.discount>.bookPics>.recommend>div{
+    width: 116px;
+    height: 20px;
+    background-image: url(../images/star_small.gif);
+}
+#bookDiscount>.discount>.bookPics>.recommend>span{
+    display: block;
+    float: left;
+}
+/* 新书上架 */
+#newBook>.leftBox{
+    width: 888px;
+    height: 436px;
+    border-top: 6px solid #ff6600;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-left: 17px;
+}
+#newBook .leftBox .bookPics>.bookPic{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 145px;
+    height: 125px;
+}
+#newBook .leftBox .bookPics>.bookPic>img{
+    width: 130px;
+    height: 130px;
+    margin-left: 10px;
+}
+#newBook .leftBox .bookPics p{
+    margin-top: 5px;
+}
+#newBook .leftBox .bookPics>.recommend>div>img{
+    width: 100px;
+    height: 20px;
+}
+/* 独家提供 */
+#only{
+    height: 600px;
+    border-bottom: 2px solid #b3b3b3;
+}
+.productTitle>ul>li{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.productTitle>ul>.active{
+    background: #ff6600;
+    color: #fff;
+}
+#only>.onlyProduct{
+    height: 510px;
+    border-top: 6px solid #ff6600;
+    position: relative;
+    overflow: hidden;
+}
+.onlyProduct>.longBox{
+    width: 8400px;
+    height: 510px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.onlyProduct .bookPics1:hover{
+    background: #f2f2f2;
+}
+ .onlyProduct .bookPics1>.bookPrice>span{
+    color: #e6e6e6;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.onlyProduct .bookPics1{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 210px;
+    height: 240px;
+}
+.onlyProduct .bookPics1>p{
+    line-height: 25px;
+}
+.onlyProduct .bookPics1>.bookPic1>img{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#only>.page{
+    height: 36px;
+    margin-left: 488px;
+    margin-top: 5px;
+}
+#only>.page>li{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: #b3b3b3;
+    margin-right:20px;
+    float: left;
+}
+#only>.page>.active{
+    background: #ff6600;
+}
+/* 猜你喜欢 */
+#guess{
+    height: 560px;
+    border-bottom: 2px solid #b3b3b3;
+}
+#guess>.onlyProduct{
+    height: 510px;
+    border-top: 6px solid #ff6600;
+}
+.guessBottom{
+    height: 140px;
+}
+.guessBottom>li{
+    width: 100px;
+    float: left;
+}
+.guessBottom>li>img{
+    width: 100px;
+}
+.guessBottom>li>p:nth-child(3){
+    width: 100px;
+    height: 20px;
+    background: #ff3129;
+    border-radius: 10px;
+    text-align: center;
+}
